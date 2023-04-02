@@ -1,0 +1,23 @@
+.main-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(8, 41, 159);
+    margin-bottom: 1rem;
+    border-bottom: 0.8px solid black;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid 1px rgba(31, 31, 189, 0.864);
+    background-color: rgb(54, 12, 170);
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 0.5px 0.5px rgb(73, 72, 72);
+}
